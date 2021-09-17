@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AdevintaApp</string>
+    <string name="plus_symbol">+</string>
+    <string name="minus_symbol">-</string>
+    <string name="visible_tagline">Visible</string>
+    <string name="enter_height_in_px">Enter height in px</string>
+    <string name="enter_width_in_px">Enter width in px</string>
+    <string name="enter_corner_radius_in_px">Enter corner radius in px</string>
+    <string name="apply_values">Apply values</string>
+</resources>

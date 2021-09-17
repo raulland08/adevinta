@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Form  -->
+    <declare-styleable name="BeerInfoLayout">
+        <attr name="android:text" />
+        <attr name="android:textColor" />
+        <attr name="android:inputType" />
+        <attr name="android:hint" />
+
+        <attr name="hintTextColor" format="color" />
+        <attr name="errorText" format="string" localization="suggested" />
+        <attr name="errorTextColor" format="color" />
+        <attr name="errorBackground" format="reference" />
+        <attr name="fieldIconDrawable" format="reference" />
+        <attr name="fieldIconDrawableAlt" format="reference" />
+
+        <attr name="fieldMode">
+            <enum name="text" value="0" />
+            <enum name="password" value="1" />
+            <enum name="emailAddress" value="2" />
+            <enum name="custom" value="3" />
+        </attr>
+
+        <attr name="dialogTitle" format="string" />
+        <attr name="dialogNeutralLabel" format="string" />
+        <attr name="dialogPositiveLabel" format="string" />
+    </declare-styleable>
+
+</resources>
